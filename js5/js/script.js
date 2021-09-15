@@ -23,6 +23,7 @@ for(i;i>=1;i--){
 }
 */
 
+/*
 var text = "";
 var i = 0;
 while(i < 10){
@@ -31,3 +32,24 @@ while(i < 10){
 }
 document.getElementById("demo").innerHTML = text;
 
+*/
+
+/*
+var teller = 1;
+var getal;
+var resultaat=0;
+var aantalGetallen = prompt("Geef het aantal getallen in");
+for(teller; teller<=aantalGetallen; teller++){
+    getal =parseInt(prompt("Geef het" + teller +" getal in "));
+    resultaat = resultaat + getal;
+}
+console.log("De totale som van" + aantalGetallen + "getallen is " + resultaat);
+
+
+*/
+var i = 1;
+var aantalSterren = prompt("Geef het aantal sterren in");
+
+for(i;i<=5;i++){
+    console.log(i);
+}
