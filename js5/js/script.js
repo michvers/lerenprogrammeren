@@ -113,6 +113,16 @@ console.log(resultaat);
 
 //oefening 8
 
-var getal = prompt("Geef een getal in");
-for(var i=1;)
+/*var getal = prompt("Geef een getal in");
+var resultaat = "";
+for(var i=1;i<=getal;i++){
+    resultaat =
 
+}*/
+
+//oefening 9
+var resultaat = "";
+var getal = prompt("Geef een getal in");
+for(var i = 1;i<=getal;i++){
+    if(getal/)
+}
