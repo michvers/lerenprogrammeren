@@ -90,9 +90,22 @@ console.log(resultaat.substring(0,resultaat.length-1));*/
 
 /*
 //oefening 6
-var tekenreeks = "tekenreeks"
-var i = ""
-console.log(tekenreeks.length);
+var text = prompt("Geef tekst")
+var karakter = prompt("Geeft karakter")
+var i = 1
+var aantal = 0
+var o = 0
+
+for(i;i<=text.length;i++){
+
+    if(karakter==text.substring(o,i)){
+        aantal++
+        o++
+    }else{
+        o++
+    }
+}
+console.log(aantal);
 
 */
 
