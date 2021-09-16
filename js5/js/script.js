@@ -46,10 +46,34 @@ for(teller; teller<=aantalGetallen; teller++){
 console.log("De totale som van" + aantalGetallen + "getallen is " + resultaat);
 
 
-*/
-var i = 1;
-var aantalSterren = prompt("Geef het aantal sterren in");
 
-for(i;i<=5;i++){
-    console.log(i);
+*/
+
+var teller = 1;
+var aantalGetallen= parseInt(prompt("Geef het aantal sterren in"));
+var ster = "*";
+var resultaat = "";
+for(teller;teller<=aantalGetallen;teller++){
+    resultaat = resultaat + ster
+    console.log(resultaat);
 }
+
+
+console.log(resultaat.substr(0,4));
+
+for(teller; teller>=aantalGetallen;teller--){
+    resultaat = resultaat - ster;
+    console.log(resultaat);
+}
+
+
+
+
+
+
+
+
+
+
+
+

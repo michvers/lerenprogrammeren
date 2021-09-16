@@ -42,7 +42,6 @@ if ((lopendJaar - geboorteJaar) >= 18) {
     console.log("Gelukkig heb ik mijn ouders die alles voor me regelen");
 }
 
-yeeet
 
 
 
