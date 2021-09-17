@@ -171,6 +171,7 @@ var x = 0;
 for(var i = 1;i<=aantalGetallen;i++){
     resultaat = x + i;
     i = resultaat;
+    console.log(resultaat);
 }
-console.log(resultaat);
+
 
