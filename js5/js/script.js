@@ -133,9 +133,44 @@ for(var i=1;i<=getal;i++){
 
 }*/
 
-//oefening 9
+/*//oefening 9
 var resultaat = "";
 var getal = prompt("Geef een getal in");
 for(var i = 1;i<=getal;i++){
     if(getal/)
+}*/
+
+//oefening 10
+/*
+
+var tafel = parseInt(prompt("Geef een tafel in"));
+var eindGetal = parseInt(prompt("Geef een eindgetal in"));
+var resultaat = "";
+var x=1;
+
+for(var i = 1;i<=eindGetal;i++){
+    if(x<=3){
+        resultaat = resultaat + tafel + "x" + i + "=" + tafel*i+",";
+        x++;
+    }else{
+        console.log(resultaat);
+        resultaat ="";
+        x=1;
+        i--;
+    }
 }
+console.log(resultaat);
+*/
+//oefening 11
+
+
+var aantalGetallen = prompt("Hoeveel getallen dienen er te worden weergegeven?");
+var resultaat = "";
+var x = 0;
+
+for(var i = 1;i<=aantalGetallen;i++){
+    resultaat = x + i;
+    i = resultaat;
+}
+console.log(resultaat);
+
