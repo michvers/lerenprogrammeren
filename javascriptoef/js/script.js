@@ -84,6 +84,7 @@ console.log(reeks3);
 
 // OEFENING 3
 
+/*
 var reeks1 = [];
 var reeks2 = [];
 var reeks3 = [];
@@ -103,6 +104,80 @@ console.log(reeks1,reeks2);
 
 for(var i = 0;i<=10;i++){
     reeks3.push(reeks1[i] + reeks2[i]);
+    console.log(reeks1[i-1] + "+" + reeks2[i-1] + "=" + reeks3[i-1])
 }
 console.log(reeks3);
-console.log()
+
+
+*/
+
+// OEFENING 4
+/*
+
+var klasLijst = [];
+var hoeveelNamen = parseInt(prompt("Hoeveel namen wil je ingeven"));
+
+for(var i = 1;i<=hoeveelNamen;i++){
+    var naam = prompt("Geef de naam in");
+    klasLijst.push(naam);
+    console.log(klasLijst);
+}
+
+*/
+
+// OEFENING 5
+/*
+
+var kleineReeks = [];
+var groteReeks = [];
+
+for(var i = 97;i<=122;i++){
+    kleineReeks.push(String.fromCharCode(i));
+    groteReeks.push(String.fromCharCode(i-32));
+}
+console.log(kleineReeks, groteReeks);
+
+*/
+
+// OEFENING 6
+
+/*
+var kleineReeks = [];
+var groteReeks = [];
+
+for(var i = 97;i<=122;i++){
+    kleineReeks.push(String.fromCharCode(i));
+    groteReeks.push(String.fromCharCode(i-32));
+}
+*/
+
+// OEFENING 7
+
+/*
+var reeks1 = [];
+var reeks2 = [];
+var reeks3 = [];
+
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+}
+console.log(getRandomInt(10));
+
+for(var i = 0;i<10;i++){
+    console.log(i);
+    reeks1[i] = getRandomInt(10);
+    reeks2[i] = getRandomInt(10);
+    if(reeks1[i]%2 == 0){
+        reeks3.push(reeks1[i]);
+    }
+    if(reeks2[i]%2 == 0){
+        reeks3.push(reeks2[i]);
+    }
+
+}
+console.log(reeks1, reeks2, reeks3);
+
+*/
+
+// OEFENING 8
+
