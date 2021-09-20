@@ -32,6 +32,7 @@ if (leeftijd >= 18) {
 } else {
     console.log(alert("U mag niet meedoen aan het spel"));
 }*/
+/*
 
 var geboorteJaar = parseInt(prompt("Geef uw geboortejaar in"));
 var lopendJaar = parseInt(prompt("Geef het lopen jaar in"));
@@ -41,7 +42,67 @@ if ((lopendJaar - geboorteJaar) >= 18) {
 } else {
     console.log("Gelukkig heb ik mijn ouders die alles voor me regelen");
 }
+*/
+
+// RUBRIEK ARRAYS
 
 
+// OEFENING 1
+/*
+var getal = parseInt(prompt("Geef getallen in"));
+var verschillendeGetallen = [];
 
+while(getal>=0){
+    verschillendeGetallen.push(getal);
+    getal = parseInt(prompt("Geef getallen in"));
+    console.log(getal);
+}
+console.log(verschillendeGetallen);
 
+var hoeveelsteGetal = prompt("Hoeveelste getal wens je te zien");
+var pos = verschillendeGetallen.indexOf(hoeveelsteGetal);
+*/
+
+// OEFENING 2
+
+/*
+var reeks1 = [];
+var reeks2 = [];
+var reeks3 = [];
+
+for(var i = 0;i<=10;i++){
+    console.log(i);
+    reeks1.push(i) && reeks2.push(i);
+}
+console.log(reeks1, reeks2);
+
+for(var i = 0;i<=10;i++){
+    reeks3.push(reeks1[i] + reeks2[i]);
+}
+console.log(reeks3);
+*/
+
+// OEFENING 3
+
+var reeks1 = [];
+var reeks2 = [];
+var reeks3 = [];
+
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+}
+console.log(getRandomInt(1000));
+
+for(var i = 0;i<11;i++){
+    console.log(i);
+    reeks1[i] = getRandomInt(1000);
+    reeks2[i] = getRandomInt(1000);
+}
+
+console.log(reeks1,reeks2);
+
+for(var i = 0;i<=10;i++){
+    reeks3.push(reeks1[i] + reeks2[i]);
+}
+console.log(reeks3);
+console.log()
